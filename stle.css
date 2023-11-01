@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    display: flex;
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+/* .nav-logo{
+    height: 50px;
+    width: 100px; 
+} */
+
+.logo{
+    height: 70px;
+}
+.tabs{
+    /* margin-top: 1px; */
+    display: flex;
+    background-color: #323069;
+    color:white ;
+}
+.tab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-inline: 12px;
+    height: 45px;
+    font-size: 16px;
+}
+/* .logo {
+    background-image: url("./amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+} */

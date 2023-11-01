@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    border: 2px solid rgba(215, 0, 0, 0.918);
+    box-shadow: 2px 5px 6px 5px rgb(43, 23, 23);
+    display: inline-block;
+    margin: 30px;
+    height: 20vh;
+    width: 20vw;
+    padding: 30px;
+    background-color: rgb(211, 236, 236);
+    text-shadow: 29em ;
+    /* in scroll x and y scroll provide */
+    overflow:auto ;
+    
+}
+
+.ww {
+    border: 2px solid rgba(119, 19, 19, 0.58);
+    margin: 30px;
+    overflow: hidden auto;
+    text-overflow: ellipsis;
+    padding: 30px;
+    box-shadow: inset 8px 1px 16px 0px rgb(43, 23, 23);
+    display: inline-block;
+    background-color: rgb(255, 226, 226);
+    height: 20vh;
+    width: 20vw;
+}
+span{
+    border: 2px solid red;
+    height: 20vh;
+    width: 20vw;
+    overflow: scroll;
+    margin: 30px;
+    display: inline-block;
+    padding: 30px;
+    list-style: none;
+    box-shadow: inset 8px 1px 16px 0px rgb(119, 35, 35);
+    line-height: 30px;
+}
